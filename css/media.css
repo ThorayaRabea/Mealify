@@ -1,0 +1,77 @@
+@media screen and (max-width:992px){
+    nav .container ul{
+        opacity: 0;
+    }
+    nav .container .barIcon{
+        display: block;
+    }
+    header .container .pic{
+        width: 90%; 
+        margin-bottom: 20px; 
+        margin-top: 10px;
+    }
+    header .container{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    header .container .caption{
+        width: 90%;
+    }
+    header .caption .header-btn{
+        justify-content: center;
+    }
+    header .caption .header-btn button{
+         margin-right: 30px;
+    }
+    #chef .card{
+        width: 47%;
+    }
+    #gallery .containerS{
+        columns: 2;
+    }
+
+    footer .containerC .about{
+        width: 49.5%;
+    }
+    .subscription{
+        width: 49.5%;
+    }
+    .contact-details{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:800px){
+    #chef .card{
+        width: 100%;
+    }
+    #contact .details .address,
+    #contact .details .email,
+    #contact .details .call,
+    #contact .details .hours
+    {
+    width: 100%;
+    }
+    #contact form .Name,
+    #contact form .Email{
+        width: 100%;
+    }
+    footer .containerC .about{
+        width: 100%;
+    }
+    .subscription{
+        width: 100%;
+    }
+    .contact-details{
+        width: 100%;
+    }
+        
+}
+
+@media screen and (max-width:600px){
+    #gallery .containerS{
+        columns: 1;
+    }
+    
+}
